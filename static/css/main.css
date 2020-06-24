@@ -1,0 +1,222 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    height: 100%;
+}
+
+main {
+    padding-top: 2em;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Lato, Chiva, Arial, sans-serif;
+    height: 100%;
+    z-index: 1;
+}
+
+a {
+    color: #3590f3;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    font-weight: 700;
+}
+
+a:hover {
+    border-bottom-color: currentColor;
+}
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #f6f9fc;
+    background-image: url(main.css);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    z-index: 0;
+}
+
+#experience section {
+    margin-bottom: 2em;
+}
+
+#experience p {
+    line-height: 1.5;
+    margin: 0;
+    margin-left: 2.25em;
+}
+
+#use section {
+    padding-bottom: 2em;
+}
+
+.subhead {
+    font-size: 1.25em;
+    margin-left: 1.4em;
+    text-indent: -1.1em;
+}
+
+#main-page-wrapper {
+    padding: 0 1em;
+    margin: auto;
+    z-index: 1;
+}
+
+#header {
+    padding: 1em 0 .5em 0;
+    border-bottom: 1px solid #000000;
+}
+
+#header-name {
+    font-weight: 900;
+    text-align: center;
+    font-size: 3em;
+    color: #254441;
+    margin-bottom: 0;
+    display: block;
+    text-decoration: none;
+    border-bottom: 0;
+}
+
+#main-nav ul {
+    text-transform: uppercase;
+    font-size: 80%;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+#main-nav li {
+    display: inline;
+    padding: 0 .25em;
+}
+
+#main-nav .active {
+    font-weight: 900;
+    color: inherit;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    text-align: center;
+    line-height: 1.2;
+}
+
+#page-footer {
+    text-align: center;
+    font-size: .75em;
+    z-index: 1;
+}
+
+#page-footer .icon {
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    padding-right: .25em;
+    z-index: 1;
+}
+
+#experience .icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    padding-right: .25em;
+}
+
+#experience .check {
+    fill: forestgreen;
+}
+
+#experience .x {
+    fill: #ca0107;
+}
+
+#experience .addition {
+    fill: goldenrod;
+}
+
+
+/* Medium screens */
+@media only screen and (min-width: 40.063em) {
+    #header {
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        margin-bottom: 0;
+    }
+
+    #header-name {
+        text-align: left;
+        margin-bottom: 0;
+    }
+
+    #main-nav ul {
+        padding-top: 2.5em;
+    }
+
+    #main-nav li {
+        display: inline;
+        padding: 0 0 0 2em;
+    }
+
+    h1 {
+        margin-bottom: 1.5em;
+    }
+
+    #experience {
+        margin: auto;
+        max-width: 500px;
+    }
+
+    #use section {
+        max-width: 700px;
+        margin: auto;
+    }
+
+    #page-footer {
+        text-align: center;
+        max-width: 990px;
+        margin: auto;
+        margin-top: -3.5em;
+    }
+}
+
+#main-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    margin: auto;
+    z-index: 1;
+}
+
+#main-page-wrapper {
+    padding-bottom: 2em;
+    flex-grow: 1;
+    z-index: 1;
+}
+
+/* Large screens */
+@media only screen and (min-width: 64.063em) {
+    h1 {
+        font-size: 1.75em;
+    }
+
+    .subhead {
+        font-size: 1.5em;
+        text-indent: -1.4em;
+    }
+
+    #main-container {
+        max-width: 990px;
+        z-index: 1;
+    }
+
+    #main-page-wrapper {
+        width: 100%;
+        z-index: 1;
+    }
+}
