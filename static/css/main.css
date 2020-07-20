@@ -76,7 +76,7 @@ a:hover {
     text-align: center;
     font-size: 3em;
     color: #254441;
-    margin-bottom: 0;
+    margin-bottom: .25em;
     display: block;
     text-decoration: none;
     border-bottom: 0;
@@ -104,6 +104,13 @@ h1 {
     margin-bottom: 1em;
     text-align: center;
     line-height: 1.2;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: normal;
+    text-align: center;
+    display: block;
 }
 
 #page-footer {
