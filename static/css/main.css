@@ -43,6 +43,8 @@ a:hover {
 
 #experience section {
     margin-bottom: 2em;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
 }
 
 #experience p {
@@ -75,9 +77,8 @@ a:hover {
 #header-name {
     font-weight: 900;
     text-align: center;
-    font-size: 3em;
+    font-size: 3.5em;
     color: #254441;
-    margin-bottom: .25em;
     display: block;
     text-decoration: none;
     border-bottom: 0;
@@ -108,7 +109,6 @@ h1 {
     line-height: 1.2;
 }
 
-<<<<<<< HEAD
 .section-projects {
     padding-top: 200px;
     padding: 150px;
@@ -132,15 +132,6 @@ h1 {
     
   }
 
-=======
-h3 {
-    font-size: 1.5em;
-    font-weight: normal;
-    text-align: center;
-    display: block;
-}
-
->>>>>>> 9124b0ba2931ac71b0b4cc4d679c477b293bb52e
 #page-footer {
     text-align: center;
     font-size: .75em;
