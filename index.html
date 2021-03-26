@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" type="text/css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./static/css/main.css">
     <link rel="shortcut icon" href="./static/favicon.ico">
@@ -58,7 +59,7 @@
                 <a href="#projects" class="btn--animated smooth-goto">Projects</a>
               </li>
               <li>
-                <a href="/contact">Contact</a>
+                <a href="#contact">Contact</a>
               </li>
               <li>
                 <a href="/resume">Resume</a>
@@ -69,7 +70,7 @@
         
         <main>
           <h1>
-            I'm a 25-year-old self-taught developer that likes to build things with code. Like this website, and other things.
+            I'm a 25-year-old self-taught developer that likes to build things with code. Like this website, and some other things.
           </h1>
 
           <section class="section-experience">
@@ -87,7 +88,7 @@
                   I'm a Machine Learning/Deep Learning developer.
                 </h2>
                 <p>
-                  Python, Pandas, Numpy, SQL, Scikit-Learn, etc.
+                  Python, Pandas, Numpy, SQL, Scikit-Learn, Tensorflow, PyTorch, etc.
                 </p>
               </section>
               <section>
@@ -100,10 +101,16 @@
                       </svg>
                     </use>
                   </svg>
-                  Experienced at front-end development.
+                  Experienced at other frameworks/langauges.
                 </h2>
                 <p>
-                  HTML, JavaScript, and CSS.
+                  - SQL, MySQL, PostgreSQL
+                </p>
+                <p>
+                  - Statistical Analysis Frameworks (SciPy, statsmodels)
+                </p>
+                <p>
+                  - HTML, JavaScript, and CSS.
                 </p>
               </section>
               <section>
@@ -119,7 +126,7 @@
                   Still a beginner at some things...
                 </h2>
                 <p>
-                  React.js, AWS, and Google Cloud Platform, back-end development (Django, Flask, etc.).
+                  AWS, and Google Cloud Platform, back-end development (Django, Flask, etc.).
                 </p>
               </section>
               <section>
@@ -163,26 +170,53 @@
               </div>
             </div>
           </section>
-
+          <section class="section-contact" id="contact">
+            <div class="contact-header">
+              <h1>Contact</h1>
+              <div id="contact-container">
+                <ul id="contact-icons">
+                  <li>
+                    <a href="https://github.com/js3lliott">
+                      <img class="icon" src="assets/github-logo.svg">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="https://www.linkedin.com/in/jordan-samek/">
+                      <img class="icon" src="assets/linkedin-logo.svg">
+                    </a>
+                  </li>
+                  <li>
+                    <a href="mailto:jordan.samek@gmail.com">
+                      <img class="icon" src="assets/email-logo.svg">
+                    </a>
+                  </li>
+                </ul>
+            </div>
+            </div>
+          </section>
+          <a href="javascript:" id="return-to-top"><i class="icon-chevron-up"></i></a>
           
         </main>
       </div>
       <footer id="page-footer">
-        <p>
-          <svg class="icon">
-            <use xlink:href="#location-icon">
-              <svg id="location-icon" viewBox="0 0 24 24">
-                <title>location</title>
-                <path d="M12 0c-3.148 0-6 2.553-6 5.702 0 3.148 2.602 6.907 6 12.298 3.398-5.391 6-9.15 6-12.298 0-3.149-2.851-5.702-6-5.702zm0 8c-1.105 0-2-.895-2-2s.895-2 2-2 2 .895 2 2-.895 2-2 2zm4 14.5c0 .828-1.79 1.5-4 1.5s-4-.672-4-1.5 1.79-1.5 4-1.5 4 .672 4 1.5z"></path>
-              </svg>
-            </use>
-          </svg>
-          Kitchener, Ontario, Canada
-        </p>
+        <a href="https://www.google.com/maps/place/Kitchener,+ON/">
+          <p>
+            <svg class="icon">
+              <use xlink:href="#location-icon">
+                <svg id="location-icon" viewBox="0 0 24 24">
+                  <title>location</title>
+                  <path d="M12 0c-3.148 0-6 2.553-6 5.702 0 3.148 2.602 6.907 6 12.298 3.398-5.391 6-9.15 6-12.298 0-3.149-2.851-5.702-6-5.702zm0 8c-1.105 0-2-.895-2-2s.895-2 2-2 2 .895 2 2-.895 2-2 2zm4 14.5c0 .828-1.79 1.5-4 1.5s-4-.672-4-1.5 1.79-1.5 4-1.5 4 .672 4 1.5z"></path>
+                </svg>
+              </use>
+            </svg>
+            Kitchener, Ontario, Canada
+          </p>
+        </a>
       </footer>
     </div>
     <!-- <script src="particles.js"></script> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js" integrity="sha512-Kef5sc7gfTacR7TZKelcrRs15ipf7+t+n7Zh6mKNJbmW+/RRdCW9nwfLn4YX0s2nO6Kv5Y2ChqgIakaC6PW09A==" crossorigin="anonymous"></script>
     <script src="app.js"></script>
+    <script src="scroll.js"></script>
   </body>
 </html>
